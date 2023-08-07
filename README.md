@@ -25,17 +25,16 @@ Unit-Test
 - Add the interfaces in Core layer.
 - Add Swagger to see the API.
 - Add Dockerfile 
-- Add git init 
-- Use DRY in repository
-- SOLID (IoC, Separation of concerns) 
+- Upload to git 
+- Use DRY in store repository with generics
+- SOLID (IoC, Separation of concerns) using Packages.cs in each component.
+- Add the test in the API layer, this are end to end test that goes through all the layers (StoreAdmin.WebAPI.Test) 
 
 
-## For dotnet:
-In folder: /c/tests/StoreAPI/src
-dotnet test
-dotnet run
+## For run dotnet:
+- dotnet test (folder ./src)
+- dotnet run (folder ./src/StoreAdmin.WebAPI)
 
-## For docker:
-In folder: /c/tests/StoreAPI/src
-docker build --tag store-api .
-docker run --publish 5000:80 store-api
+## For run docker:
+- docker build --tag store-api . (folder ./src)
+- docker run --publish 5000:80 store-api (folder ./src)
