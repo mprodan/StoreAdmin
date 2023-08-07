@@ -1,0 +1,9 @@
+.vscode/
+.vs/
+obj/
+bin/
+*.csproj.user
+.idea/
+.user
+main/Qu.Notify.WebApi/Properties/launchSettings.json
+.sonarlint/
