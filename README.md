@@ -17,17 +17,19 @@ Unit-Test
 
 ## Thoughts
 - Create the user story and think about the design.
+- SOLID (IoC, Separation of concerns) using Packages.cs in each component.
+- All the interfaces in Core layer.
 - Create the structure of projects. Thinking in use IoC and Interfaces.
 - Create tests first in order to use TDD.
+- I will use for the database sqlite.
 - Add the CRUD of users in the repository.
 - Add the CRUD of stores in the repository.
-- Add a default user when the DB no exists, to allow the first login.
-- Add the interfaces in Core layer.
+- Add a default user when the DB no exists, to allow the first login. {"username": "admin",  "password": "admin1234"}
+- For Authenticate the User I will use BCrypt, and generate a token for Authorization of the endpoints.
 - Add Swagger to see the API.
 - Add Dockerfile 
 - Upload to git 
 - Use DRY in store repository with generics
-- SOLID (IoC, Separation of concerns) using Packages.cs in each component.
 - Add the test in the API layer, this are end to end test that goes through all the layers (StoreAdmin.WebAPI.Test) 
 
 
